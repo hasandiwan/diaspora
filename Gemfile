@@ -67,12 +67,7 @@ gem "sprockets-rails",        "3.2.1"
 
 # Database
 
-group :mysql, optional: true do
-  gem "mysql2", "0.5.2"
-end
-group :postgresql, optional: true do
-  gem "pg",     "1.1.4"
-end
+gem "pg",     "1.1.4"
 
 
 gem "activerecord-import", "1.0.1"
@@ -317,3 +312,5 @@ group :development, :test do
   # For `assigns` in controller specs
   gem "rails-controller-testing", "1.0.4"
 end
+gem 'rails_semantic_logger'
+gem 'rocketjob', '~> 3.0'
