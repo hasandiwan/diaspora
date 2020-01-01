@@ -89,6 +89,7 @@ module Diaspora
     config.generators do |g|
       g.template_engine :haml
       g.test_framework  :rspec
+      g.orm :active_record
     end
 
     # Setup action mailer early
