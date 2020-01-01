@@ -15,6 +15,9 @@ describe Post, :type => :model do
         @post_from_stranger = FactoryGirl.create(:status_message, :public => false)
       end
 
+			it 'is encrypted, if recipient has public key' do
+				expect(StatusMessage.owned_or_visible_by_user(@you)).to begin_with(' -----BEGIN PGP MESSAGE-----')
+			end
       it 'returns post from your contacts' do
         expect(StatusMessage.owned_or_visible_by_user(@you)).to include(@post_from_contact)
       end
