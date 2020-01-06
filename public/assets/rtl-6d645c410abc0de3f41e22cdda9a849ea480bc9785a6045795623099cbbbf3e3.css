@@ -1,0 +1,32 @@
+/* line 1, /Users/user/Developer/diaspora/app/assets/stylesheets/rtl.scss */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* line 6, /Users/user/Developer/diaspora/app/assets/stylesheets/rtl.scss */
+ul.as-selections li {
+  float: right;
+}
+
+/* line 10, /Users/user/Developer/diaspora/app/assets/stylesheets/rtl.scss */
+ul.as-selections li.as-selection-item a.as-close {
+  float: left;
+  margin: 0 0 0 3px;
+}
+
+/* line 15, /Users/user/Developer/diaspora/app/assets/stylesheets/rtl.scss */
+ul.as-selections li.as-selection-item {
+  padding: 3px 6px 3px 0;
+}
+
+/* line 19, /Users/user/Developer/diaspora/app/assets/stylesheets/rtl.scss */
+ul, ol {
+  margin: 0 0 1.5em 1.5em;
+  padding-right: 3.333em;
+}
+
+/* line 24, /Users/user/Developer/diaspora/app/assets/stylesheets/rtl.scss */
+div.content span.rtl {
+  display: block;
+}

@@ -1,0 +1,169 @@
+@-webkit-keyframes expose {
+  0% {
+    top: -100px;
+  }
+  12% {
+    top: 50px;
+  }
+  88% {
+    top: 50px;
+  }
+  100% {
+    top: -100px;
+  }
+}
+@keyframes expose {
+  0% {
+    top: -100px;
+  }
+  12% {
+    top: 50px;
+  }
+  88% {
+    top: 50px;
+  }
+  100% {
+    top: -100px;
+  }
+}
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes pulsate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: .1;
+  }
+}
+@keyframes pulsate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: .1;
+  }
+}
+/* line 9, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.users li.user {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: .4em;
+  padding-bottom: .4em;
+}
+/* line 14, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.users li.user:last-child {
+  border: none;
+}
+/* line 16, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.users li.user .avatar {
+  width: 50px;
+  height: 50px;
+  max-width: none;
+}
+/* line 22, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.users li.user .pull-right .label {
+  display: inline-block;
+}
+
+/* line 28, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.more_invites #add-invites-section {
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+
+/* line 34, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.invite-emails {
+  margin-bottom: 10px;
+}
+
+/* line 39, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.week-selector {
+  margin-top: 10px;
+}
+
+/* line 45, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.segment-selection select,
+.segment-selection [type=submit] {
+  margin-top: 10px;
+}
+
+/* line 52, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.percent-change.increase {
+  color: #008000;
+}
+/* line 56, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.percent-change.decrease {
+  color: #fe0000;
+}
+
+/* line 63, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.reports .reason-label {
+  font-weight: bold;
+}
+/* line 67, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.reports .content {
+  padding-bottom: 20px;
+}
+/* line 71, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+.reports .panel-body .btn-info {
+  margin-right: 5px;
+}
+
+/* line 78, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+#pod-list .pod-title {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 84, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+#pod-list th.added,
+#pod-list td.added,
+#pod-list td.actions {
+  white-space: nowrap;
+}
+/* line 88, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+#pod-list tr.deleting {
+  opacity: .5;
+}
+/* line 92, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+#pod-list tr.checking .recheck i {
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-name: pulsate;
+          animation-name: pulsate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+/* line 99, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+#pod-list td.actions {
+  text-align: right;
+}
+/* line 102, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+#pod-list td.actions a {
+  color: inherit;
+}
+/* line 105, /Users/user/Developer/diaspora/app/assets/stylesheets/admin.scss */
+#pod-list pre.details {
+  margin-top: 1em;
+  white-space: normal;
+}
